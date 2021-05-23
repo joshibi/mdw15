@@ -1,0 +1,60 @@
+body {
+	background-color: black;
+	text-align: center;
+	color: #ccc;
+	font-family: 'Andale Mono','Helvetica Neue', Helvetica, 'メイリオ', Meiryo ,sans-serif;
+}
+
+
+.container {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.photos {
+	margin-bottom: 150px;
+	position: center;
+}
+
+
+.top {
+	position: fixed;
+	width: 100%;
+}
+
+
+.head {
+	background-image: url(../img/head_black.jpg);
+	background-repeat: none;
+	background-position: center;
+	 filter:alpha(opacity=80);
+    -moz-opacity: 0.8;
+    opacity: 0.8;
+
+}
+
+.text {
+	margin-bottom: 150px;
+	padding-top: 350px;
+
+}
+
+p {
+	border-style: solid;
+	border-color: #ccc;
+	border-width: 3px;
+	padding: 50px;
+	margin: 0 auto;
+	width: 700px;
+}
+
+
+
+.foot{
+	background-image: url(../img/line_black_gray.jpg);
+	background-repeat: none;
+	background-position: center;
+	padding-top: 59px;
+}

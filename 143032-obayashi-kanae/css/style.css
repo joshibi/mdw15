@@ -1,0 +1,78 @@
+body {
+	 background-image: url(../img/sky2.jpg) ; 
+	background-repeat: none;
+	background-position: 50% 50%;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.head {
+	position: fixed;
+	top: 100px;
+	left: 50%;
+	width: 240px;
+	height: 340px;
+	padding: 30px;
+	margin-left: -480px;
+	background: #fff
+}
+
+.title {
+	font-family: Osaka;
+	color: #002f7d;
+}
+
+.lead {
+	font-family: Osaka;
+	color: #002f7d;
+}
+ 
+.wrap {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.main {
+	margin-top: 100px;
+	margin-left: 330px;
+}
+
+.photo {
+	margin-bottom: 30px;
+}
+
+.photo img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
+
+.foot {
+	margin-top: 70px;
+	margin-bottom: 70px;
+	color: #ffffff;
+}
+
+
+.title {
+	font-size: 48px;
+	font-weight: 100;
+	text-align: center;
+}
+
+.lead {
+	text-align: center;
+}
+
+.copyright {
+	text-align: right;
+}
+
+
+
+
+
+
+

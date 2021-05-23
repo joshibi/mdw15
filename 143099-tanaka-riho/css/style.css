@@ -1,0 +1,73 @@
+.head{
+	background-image: url(../img/100_l0_1_1.jpg); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top:150px;
+	padding-bottom:150px;
+	background-position: 50% 50%;
+}
+
+.head h1{
+	text-align: center;
+	color: #fff;
+	font-size: 60px;
+	font-family: '小塚ゴシック Pro','游ゴシック', 'Helvetica Neue', Helvetica, Arial;
+}
+
+.main{
+	padding-top: 100px;
+	background-image: url(../img/123.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+}
+
+.foot{
+	background-image: url(../img/100_l0_2.jpg);
+ 	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+	padding-top:150px;
+	padding-bottom:150px;
+	background-position: 50% 50%;
+	margin-top: 100px;
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+	font-family: '小塚ゴシック Pro','游ゴシック', 'Helvetica Neue', Helvetica, Arial;
+}
+
+.container{
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.photo{
+	margin-top: 55px;
+	margin-bottom: 55px;
+}
+
+.photo img{
+	max-width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
+
+.photo.large{
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.photo.medium{
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.photo.small{
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+}

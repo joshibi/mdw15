@@ -1,0 +1,91 @@
+ body {
+  background-repeat: no-repeat;
+  background-image:url(../img/title.jpg);
+  background-attachment: fixed;
+  background-position: calc(50% - 100px) 50%;
+  background-size: cover;
+}
+
+.head {
+  position: fixed;
+  top: 120px;
+  left: calc(50% - 100px);
+  width: 240px;
+  height: 340px;
+  padding: 30px;
+  margin-left: -400px;
+
+
+}
+
+/*.container {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.head .container,
+.foot .container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+*/
+
+.main {
+  width: 500px;  
+  position: relative;
+  top: 120px;
+  left: 50%;
+}
+
+.photos {
+  overflow: hidden;
+  margin-left: -10px;
+}
+
+
+
+.photo {
+  width: 160px;
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.foot {
+  clear: both;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+
+.title {
+  font-family: "ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+  color:#ffffff;
+  font-size: 60px;
+  font-weight: 100;
+  text-align: center;
+}
+
+
+.lead {
+  color:#ffffff;
+  text-align: center;
+  font-family: "ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+  font-size: 13px;
+  margin-left: 25px;
+  margin-top: 150px;
+
+
+
+}
+
+.copyright {
+  text-align: right;
+}

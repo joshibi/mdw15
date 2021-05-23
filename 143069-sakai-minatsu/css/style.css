@@ -1,0 +1,64 @@
+body{
+  background-color:rgb(87,109,121);
+  background-attachment: fixed;
+}
+
+.head{
+	position: absolute;
+  left: 30px;
+  margin-left: 0;
+}
+
+@media screen and (min-width: 960px) {
+  .head {
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    width: 252px;
+    height: 392px;
+    margin-left: -450px;
+  }
+}
+
+.main{
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+	margin-top: 100px;
+}
+
+.photos {
+  margin-top: 30px;
+  margin-left: 300px;
+  overflow: hidden;
+}
+
+.photos[data-columns]::before {
+	content: "2 .column";
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.photo{
+  margin-bottom: 10px;
+}
+
+.foot {
+  margin-top: 70px;
+  margin-bottom: 100px;
+  color: #ffffff;
+}
+
+.container {
+text-align: center;
+}
+
+.title {
+  position: fixed;
+  text-align: center;
+}
+
+

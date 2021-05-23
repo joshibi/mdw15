@@ -1,0 +1,33 @@
+.head {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.main {
+}
+
+.photos {
+  overflow: hidden;
+  /* 写真の左列のマージン部分を強制的に戻す */
+  margin-left: -30px;
+}
+
+.photo {
+  width: 50%;
+  float: left;
+}
+
+.photo.max {
+  width: 100%;
+  clear: left;
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}

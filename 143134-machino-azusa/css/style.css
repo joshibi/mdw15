@@ -1,0 +1,68 @@
+body {
+  min-width: 960px;
+  background: #000;
+}
+
+.head {
+  background-image: url('../img/000before.jpg');
+  background-repeat: none;
+  background-position: 50% 50%;
+  background-size: cover;
+  color: #ffffff;
+  height:640px;  
+    
+}
+
+
+.container {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.head .container,
+.foot .container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.main {
+  margin-top: 100px;
+}
+
+.photos {
+}
+
+.photo {
+  margin-bottom: 30px;
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.foot {
+  margin-top: 70px;
+  background-image: 
+ url(../img/151after.jpg);
+  background-repeat: none;
+  background-position: 50% 50%;
+  background-size: cover;
+  color: #ffffff;
+  height:640px;  
+ }
+
+.title {
+  font-size: 48px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.lead {
+  width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}

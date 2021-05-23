@@ -1,0 +1,72 @@
+body{
+	background-image: url("../img/dondoko.jpg");
+	background-repeat: repeat-x;
+	background-position: bottom center;
+	background-color: #7F1206;
+}
+
+.head{
+    padding-top: 150px;
+    padding-bottom: 170px;
+	background-color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 150px; 
+	
+	font-size: 25px;
+	color:#7F1206;
+	text-align: center;
+}
+
+.ohana{
+	font-family: "Herculanum" ;
+}
+
+.suthichi{
+	font-family: "BlairMdITC TT Medium" ;
+	letter-spacing: 0.1em;
+}
+
+
+.photos {
+	overflow: hidden;
+}
+
+.photo {
+  width: 300px;
+  float: left;
+  margin-bottom: 0px;
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+
+}
+
+.main{
+	
+}
+
+.foot{
+	text-align: center;
+	background-color: #72DAF2;
+	 padding-top: 120px;
+    padding-bottom: 300px;
+    color:#ffffff;
+    font-size: 20px;
+    font-family: "Arial Narrow","Andale Mono" sans-serif;
+    letter-spacing: 0.1em;
+}
+
+
+.container{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
